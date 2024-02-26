@@ -1,0 +1,47 @@
+.changelog {
+	display: grid;
+	grid-template-columns: 25% 75%;
+	grid-template-rows: fit-content;
+	background-color: #00F;
+	padding: 1% 2% 1% 2%;
+	border: 1pt solid var(--color);
+}
+.changelog > div {
+	border-bottom: 1pt solid var(--color);
+	border-top: 1pt solid var(--color);
+}
+.changebox {
+  overflow-y: auto;
+  width: 100%;
+}
+#index {
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+.changelogContainer {
+	margin-left: 3%;
+}
+#static {
+	height: min-content;
+}
+@media (max-width: 1024px) {
+	.changelog {
+		grid-template-columns: 100%;
+	}
+	.changelogContainer {
+		margin-left: 0;
+		margin-top: 3%;
+	}
+	#index {
+	display: grid;
+	grid-template-columns: 100%;
+	}
+	.changelog > #date {
+	border-bottom: 0;
+	border-top: 1pt solid var(--color);
+	}
+	.changelog > #desc {
+	border-bottom: 1pt solid var(--color);
+	border-top: 0;
+	}
+}

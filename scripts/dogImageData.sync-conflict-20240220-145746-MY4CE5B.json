@@ -1,0 +1,178 @@
+﻿{
+"dogImages": [
+    {
+    "id": 0,
+    "alt": "a photo of a dog that is winking while looking towards the camera and smiling.",
+    "extension": "jpg",
+	"desc": ";D"
+    },
+    {
+    "id": 1,
+    "alt": "a photo of a dog that is jumping towards the camera. the photo is blurry and you cannot see part of the dog's face.",
+    "extension": "jpg",
+	"desc": "me when i freaking get you"
+    },
+	{
+      "id": 2,
+      "alt": "a photo of a dog's face. she has a neutral expression.",
+      "extension": "jpg",
+	  "desc": "hello"
+    },
+	{
+      "id": 3,
+      "alt": "",
+      "extension": "jpg",
+	  "desc": "funny face"
+    },
+	{
+      "id": 4,
+      "alt": "a photo of a dog who is smiling. she looks very playful.",
+      "extension": "jpg",
+	  "desc": "yay!"
+    },
+	{
+      "id": 5,
+      "alt": "a photo of a dog who is looking at the camera with a curious and questioning expression.",
+      "extension": "jpg",
+	  "desc": "?"
+    },
+	{
+      "id": 6,
+      "alt": "a photo of a dog who is sitting on the ground and looking up at the camera. she has a lei around her neck",
+      "extension": "jpg",
+	  "desc": "so festive!"
+    },
+	{
+      "id": 7,
+      "alt": "a photo of a dog who is sitting on the ground and looking up at the camera. she is smiling, and looks very happy.",
+      "extension": "jpg",
+	  "desc": "hooray!"
+    },
+	{
+      "id": 8,
+      "alt": "a photo of a dog who is running towards the camera while smiling. the person holding the camera is pointing at the dog.",
+      "extension": "jpg",
+	  "desc": "hello!!!"
+    },
+	{
+      "id": 9,
+      "alt": "a photo of a dog who is looking at a laptop.",
+      "extension": "jpg",
+	  "desc": "shes a gamer"
+    },
+    {
+      "id": 10,
+      "alt": "a photo of a dog who looks a bit concerned.",
+      "extension": "jpg",
+	  "desc": "she cannot believe what has occurred"
+    },
+    {
+        "id": 11,
+        "alt": "a photo of a dog who is laying in a car seat. she is smiling with her eyes closed.",
+        "extension": "jpg",
+        "desc": "chilling"
+    },
+    {
+        "id": 12,
+        "alt": "",
+        "extension": "jpg",
+        "desc": "funny face"
+    },
+    {
+        "id": 13,
+        "alt": "a photo of a dog who is walking towards the camera, while looking at a cookie that is visible in the corner of the image.",
+        "extension": "jpg",
+        "desc": "she thinks i am going to give her something"
+    },
+    {
+        "id": 14,
+        "alt": "a photo of a dog who is sitting on a tall chair. she is looking suspiciously at the camera.",
+        "extension": "jpg",
+        "desc": "what a polite dog!"
+    },
+    {
+        "id": 15,
+        "alt": "a photo of a dog who is sitting on the ground while turning her head around to look at the camera. she is smiling and looks excited.",
+        "extension": "jpg",
+        "desc": "haiii!!!"
+    },
+    {
+        "id": 16,
+        "alt": "a photo of a dog who is standing in a bathtub(for dogs). her fur is wet and covered with soap. she is smiling.",
+        "extension": "jpg",
+        "desc": "soggy doggy"
+    },
+    {
+        "id": 17,
+        "alt": "a photo of a dog who is sitting on a chair at a table. she is leaning towards the camera and smiling. there is a person behind her who is pointing at her.",
+        "extension": "jpg",
+        "desc": "yaaaaaayyyy!!!!"
+    },
+    {
+        "id": 18,
+        "alt": "a photo of a dog who is standing on her back legs and is resting her paws on a table.",
+        "extension": "png",
+        "desc": "you cant go on the table"
+    },
+    {
+        "id": 19,
+        "alt": "a photo of a dog laying on a couch. she looks very calm.",
+        "extension": "jpg",
+        "desc": ":3"
+    },
+    {
+        "id": 20,
+        "alt": "a photo of a dog that is sitting under a table. she is resting her head on the leg of the person taking the photo, while looking at them with a pleading face, and she almost looks like she is about to cry.",
+        "extension": "jpg",
+        "desc": "mini when i dont pet her for .1 seconds because im eating dinner"
+    },
+    {
+        "id": 21,
+        "alt": "a photo of a dog who is laying on a couch. she is laying with her paws hanging off the edge of the couch, and one paw is over the other, almost like she is posing for the picture. she is looking up at the camera.",
+        "extension": "jpg",
+        "desc": "look at her gay ass pose"
+    },
+    {
+        "id": 22,
+        "alt": "a photo of a dog who is laying on the ground while turning her head to look at the camera. because of the way she is sitting, her paws are not visible, so she looks similar to cats when they loaf.",
+        "extension": "jpg",
+        "desc": "she learned how to loaf"
+    },
+    {
+        "id": 23,
+        "alt": "a photo of a dog who is laying on the ground while looking at the camera. she is smiling, but her facial expression looks a bit mischevious. she is holding a squeaky toy in her paws.",
+        "extension": "jpg",
+        "desc": ">:D"
+    },
+    {
+        "id": 24,
+        "alt": "a photo of a dog who is jumping up on the person taking the picture. the person taking the picture is holding an ssd, which the dog is sniffing. her face looks strange because of the angle at which the photo was taken.",
+        "extension": "jpg",
+        "desc": "she thinks that the ssd is for her"
+    },
+    {
+        "id": 25,
+        "alt": "a photo of a dog's face. she is sniffing a tube of mechanical pencil erasers. she looks strange because of the angle at which the photo was taken.",
+        "extension": "jpg",
+        "desc": "the one who smealt it dealt it mini...."
+    },
+    {
+        "id": 26,
+        "alt": "a photo of a dog who is smiling while looking at the camera. she looks very happy.",
+        "extension": "jpg",
+        "desc": "not a thought in her head <3"
+    },
+    {
+        "id": 27,
+        "alt": "a photo of a dog that is laying on the ground. her tounge is out, and her eyes look almost completely black because of the lighting in the image.",
+        "extension": "jpg",
+        "desc": "she looks like a scary creature"
+    },
+    {
+        "id": 28,
+        "alt": "a photo of a dog who is sitting on the ground while looking up and smiling. the person taking the photo is holding a Wii U, which the dog is looking at.",
+        "extension": "jpg",
+        "desc": "she thinks the wii u is for her"
+    }
+  ]
+}
