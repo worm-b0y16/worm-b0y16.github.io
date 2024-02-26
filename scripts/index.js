@@ -38,7 +38,7 @@ function getRandomIndex(max) {
 
 async function populate() {
     const requestURL = 
-      "https://worm-b0y.neocities.org/scripts/dogImageData.json";
+      "https://worm-b0y16.github.io/scripts/dogImageData.json";
     const request = new Request(requestURL);
     const response = await fetch(request);
     imageData = await response.json();
