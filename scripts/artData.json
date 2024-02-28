@@ -52,7 +52,7 @@
             "year": 23,
             "source": "milk bag"
         ],
-        "height": auto,
+        "height": "auto",
         "width": 582
     },
     {
@@ -63,8 +63,8 @@
             "year": 23,
             "source": "utau"
         ],
-        "height": auto,
-        "width": auto
+        "height": "auto",
+        "width": "auto"
     }
 ]
 }
