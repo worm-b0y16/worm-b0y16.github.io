@@ -1,6 +1,7 @@
 {
 "art": [
     {
+        "index": 0,
         "name": "iono.png",
         "alt": "a drawing of iono from pokemon.",
         "date": "20/06/23",
@@ -12,6 +13,7 @@
         "width": 529
     },
     {
+        "index": 1,
         "name": "s1octoling.png",
         "alt": "drawing of an elite octoling from splatoon 1",
         "date": "15/07/23",
@@ -23,6 +25,7 @@
         "width": 540
     },
     {
+        "index": 2,
         "name": "defoko.png",
         "alt": "a drawing of the utauloid defoko.",
         "date": "23/07/23",
@@ -34,6 +37,7 @@
         "width": 164
     },
     {
+        "index": 3,
         "name": "dedf1sh.png",
         "alt": "a drawing of dedf1sh, or acht from splatoon.",
         "date": "21/09/23",
@@ -45,6 +49,7 @@
         "width": 468 
     },
     {
+        "index": 4,
         "name": "milk_girl.jpg",
         "alt": "a drawing of the main character from milk outside a bag of milk.",
         "date": "01/10/23",
@@ -56,6 +61,7 @@
         "width": 582
     },
     {
+        "index": 5,
         "name": "teto.png",
         "alt": "a drawing of the utauloid kasane teto.",
         "date": "18/12/23",
