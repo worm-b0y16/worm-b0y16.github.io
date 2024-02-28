@@ -8,8 +8,8 @@ var splatoonList = [];
 var otherList = [];
 
 addEventListener("load", populate);
-sortButton[0].addEventListener("click", 23Sort);
-sortButton[1].addEventListener("click", 24Sort);
+sortButton[0].addEventListener("click", twentyThreeSort);
+sortButton[1].addEventListener("click", twentyTwoSort);
 sortButton[2].addEventListener("click", utauSort);
 sortButton[3].addEventListener("click", splatoonSort);
 sortButton[4].addEventListener("click", otherSort);
