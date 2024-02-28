@@ -3,9 +3,9 @@ const sortButton = document.querySelectorAll(".sortButton");
 const artDisplay = document.querySelector(".artDisplay");
 var twentyThreeList = [];
 var twentyTwoList = [];
-var utauSort[];
-var splatoonSort[];
-var otherSort[];
+var utauList = [];
+var splatoonList = [];
+var otherList = [];
 
 addEventListener("load", populate);
 sortButton[0].addEventListener("click", 23Sort);
