@@ -17,7 +17,8 @@ sortButton[4].addEventListener("click", otherSort);
 function twentyThreeSort() {
     var temp;
     for(i = 0; i < (imageData["art"].length); i++) {
-        if ((imageData["art"[i]]["tags"]."year") == 23) {
+        if ((imageData.art[i].tags[year]) == 23) {
+            //imageData["art"[i]]["tags"]["year"]
             temp = imageData["art"[i]].index;
             temp = newLength = twentyThreeList.push(temp);
         }
