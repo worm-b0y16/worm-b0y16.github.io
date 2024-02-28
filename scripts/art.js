@@ -1,8 +1,8 @@
 var imageData;
 const sortButton = document.querySelectorAll(".sortButton");
 const artDisplay = document.querySelector(".artDisplay");
-var 23List = [];
-var 24List = [];
+var twentyThreeList = [];
+var twentyTwoList = [];
 var utauSort[];
 var splatoonSort[];
 var otherSort[];
@@ -14,7 +14,7 @@ sortButton[2].addEventListener("click", utauSort);
 sortButton[3].addEventListener("click", splatoonSort);
 sortButton[4].addEventListener("click", otherSort);
 
-function 23Sort() {
+function twentyThreeSort() {
     var temp;
     for(i = 0; i < (imageData["art"].length); i++) {
         if ((imageData["art"][i]["tags"]."year") == 23) {
@@ -23,7 +23,7 @@ function 23Sort() {
         }
     }
 }
-function 24Sort() {
+function twentyTwoSort() {
     
 }
 
