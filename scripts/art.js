@@ -17,9 +17,9 @@ sortButton[4].addEventListener("click", otherSort);
 function twentyThreeSort() {
     var temp;
     for(i = 0; i < (imageData["art"].length); i++) {
-        if ((imageData["art"][i]["tags"]."year") == 23) {
-            temp = ["art"][i].index;
-            temp = newLength = 23List.push(temp);
+        if ((imageData."art"[i]."tags"["year"]) == 23) {
+            temp = imageData."art"[i].index;
+            temp = newLength = twentyThreeList.push(temp);
         }
     }
 }
