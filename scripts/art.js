@@ -2,19 +2,20 @@ var imageData;
 const sortButton = document.querySelectorAll(".sortButton");
 const artDisplay = document.querySelector(".artDisplay");
 var twentyThreeList = [];
-var twentyTwoList = [];
+var twentyFourList = [];
 var utauList = [];
 var splatoonList = [];
 var otherList = [];
 
 addEventListener("load", populate);
 sortButton[0].addEventListener("click", twentyThreeSort);
-sortButton[1].addEventListener("click", twentyTwoSort);
+sortButton[1].addEventListener("click", twentyFourSort);
 sortButton[2].addEventListener("click", utauSort);
 sortButton[3].addEventListener("click", splatoonSort);
 sortButton[4].addEventListener("click", otherSort);
 
 function twentyThreeSort() {
+    var twentyThreeList = [];
     var temp;
     for(i = 0; i < (imageData["art"].length); i++) {
         if ((imageData.art[i].tags.year) == 23) {
@@ -23,12 +24,26 @@ function twentyThreeSort() {
         }
     }
 }
-function twentyTwoSort() {
-    
+function twentyFourSort() {
+    var twentyFourList = [];
+    var temp;
+    for(i = 0; i < (imageData["art"].length); i++) {
+        if ((imageData.art[i].tags.year) == 24) {
+            temp = imageData.art[i].index;
+            temp = newLength = twentyFourList.push(temp);
+        }
+    }
 }
 
 function utauSort() {
-    
+    var utauList = [];
+    var temp;
+    for(i = 0; i < (imageData["art"].length); i++) {
+        if ((imageData.art[i].tags.source) == "utau") {
+            temp = imageData.art[i].index;
+            temp = newLength = utauList.push(temp);
+        }
+    }
 }
 function splatoonSort() {
     
