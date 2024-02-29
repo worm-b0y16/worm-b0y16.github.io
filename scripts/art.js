@@ -16,7 +16,7 @@ sortButton[3].addEventListener("click", splatoonSort);
 sortButton[4].addEventListener("click", otherSort);
 
 function twentyThreeSort() {
-    
+    twentyThreeList = [];
     var temp;
     for(i = 0; i < (imageData["art"].length); i++) {
         if ((imageData.art[i].tags.year) == 23) {
@@ -26,7 +26,7 @@ function twentyThreeSort() {
     }
 }
 function twentyFourSort() {
-    var twentyFourList = [];
+    twentyFourList = [];
     var temp;
     for(i = 0; i < (imageData["art"].length); i++) {
         if ((imageData.art[i].tags.year) == 24) {
@@ -37,7 +37,7 @@ function twentyFourSort() {
 }
 
 function utauSort() {
-    var utauList = [];
+    utauList = [];
     var temp;
     for(i = 0; i < (imageData["art"].length); i++) {
         if ((imageData.art[i].tags.source) == "utau") {
@@ -47,7 +47,7 @@ function utauSort() {
     }
 }
 function splatoonSort() {
-    var splatoonList = [];
+    splatoonList = [];
     var temp;
     for(i = 0; i < (imageData["art"].length); i++) {
         if ((imageData.art[i].tags.source) == "splatoon") {
