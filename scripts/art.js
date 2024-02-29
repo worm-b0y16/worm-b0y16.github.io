@@ -1,6 +1,7 @@
 var imageData;
 const sortButton = document.querySelectorAll(".sortButton");
 const artDisplay = document.querySelector(".artDisplay");
+const sourceList = ["utau", "splatoon"];
 var twentyThreeList = [];
 var twentyFourList = [];
 var utauList = [];
@@ -15,7 +16,7 @@ sortButton[3].addEventListener("click", splatoonSort);
 sortButton[4].addEventListener("click", otherSort);
 
 function twentyThreeSort() {
-    var twentyThreeList = [];
+    
     var temp;
     for(i = 0; i < (imageData["art"].length); i++) {
         if ((imageData.art[i].tags.year) == 23) {
@@ -46,7 +47,14 @@ function utauSort() {
     }
 }
 function splatoonSort() {
-    
+    var splatoonList = [];
+    var temp;
+    for(i = 0; i < (imageData["art"].length); i++) {
+        if ((imageData.art[i].tags.source) == "splatoon") {
+            temp = imageData.art[i].index;
+            temp = newLength = splatoonList.push(temp);
+        }
+    }
 }
 function otherSort() {
     
