@@ -18,7 +18,7 @@ function twentyThreeSort() {
     var temp;
     for(i = 0; i < (imageData["art"].length); i++) {
         if ((imageData.art[i].tags.year) == 23) {
-            temp = imageData["art"[i]].index;
+            temp = imageData.art[i].index;
             temp = newLength = twentyThreeList.push(temp);
         }
     }
