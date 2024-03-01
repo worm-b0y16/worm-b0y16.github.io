@@ -57,7 +57,14 @@ function splatoonSort() {
     }
 }
 function otherSort() {
-    
+    otherList = [];
+    var temp;
+    for(i = 0; i < (imageData["art"].length); i++) {
+        if (((imageData.art[i].tags.source) != "splatoon") && ((imageData.art[i].tags.source) != "utau")) {
+            temp = imageData.art[i].index;
+            temp = newLength = otherList.push(temp);
+        }
+    }
 }
 
 async function populate() {
