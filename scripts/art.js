@@ -74,3 +74,17 @@ async function populate() {
     const response = await fetch(request);
     imageData = await response.json();
 }
+
+function update (list) {
+    imageDisplay.innerHtml = [];
+    var temp1;
+    var temp2;
+    for (var i = 0; i < list.length; i++){
+        const newImageContainer = document.createElement("div");
+        newImageContainer.setAttribute("class", "drawing");
+        const newImage = document.createElement("img");
+        temp1 = list[i]
+        temp2 = "images/art/" + imageData.art[temp1].name;
+        newImage.setAttribute("src", temp2);
+    }
+}
