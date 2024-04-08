@@ -24,7 +24,7 @@ function twentyThreeSort() {
             temp = newLength = twentyThreeList.push(temp);
         }
     }
-    update (twentyThreeList);
+    update(twentyThreeList);
 }
 function twentyFourSort() {
     twentyFourList = [];
@@ -35,7 +35,7 @@ function twentyFourSort() {
             temp = newLength = twentyFourList.push(temp);
         }
     }
-    update (twentyFourList);
+    update(twentyFourList);
 }
 
 function utauSort() {
@@ -47,7 +47,7 @@ function utauSort() {
             temp = newLength = utauList.push(temp);
         }
     }
-    update (utauList);
+    update(utauList);
 }
 function splatoonSort() {
     splatoonList = [];
@@ -58,7 +58,7 @@ function splatoonSort() {
             temp = newLength = splatoonList.push(temp);
         }
     }
-    update (splatoonList);
+    update(splatoonList);
 }
 function otherSort() {
     otherList = [];
@@ -98,6 +98,9 @@ function update (list) {
         temp1 = list[i]
         temp2 = "images/art/" + imageData.art[temp1].name;
         temp3 = imageData.art[temp1].alt;
+        console.log(temp1);
+        console.log(temp2);
+        console.log(temp3);
         temp4 = imageData.art[temp1].date;
         newImage.setAttribute("src", temp2);
         newImage.setAttribute("alt", temp3);
