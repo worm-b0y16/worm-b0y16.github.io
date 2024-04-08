@@ -7,7 +7,6 @@ var twentyFourList = [];
 var utauList = [];
 var splatoonList = [];
 var otherList = [];
-const artDisplay = document.querySelector(".artDisplay");
 
 addEventListener("load", populate);
 sortButton[0].addEventListener("click", twentyThreeSort);
