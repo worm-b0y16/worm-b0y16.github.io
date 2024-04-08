@@ -92,16 +92,16 @@ function update (list) {
     var temp3;
     var temp4;
     for (var i = 0; i < list.length; i++){
-        const newImageContainer = document.createElement("div");
+        var newImageContainer = document.createElement("div");
         newImageContainer.setAttribute("class", "drawing");
-        const newImage = document.createElement("img");
+        var newImage = document.createElement("img");
         temp1 = list[i]
         temp2 = "images/art/" + imageData.art[temp1].name;
         temp3 = imageData.art[temp1].alt;
         temp4 = imageData.art[temp1].date;
         newImage.setAttribute("src", temp2);
         newImage.setAttribute("alt", temp3);
-        const newImageDate = document.createTextNode(temp4);
+        var newImageDate = document.createTextNode(temp4);
 
         newImageContainer.append(newImage, newImageDate);
         
