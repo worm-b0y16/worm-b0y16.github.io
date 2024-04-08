@@ -86,7 +86,7 @@ async function populate() {
 }
 
 function update (list) {
-    artDisplay.innerHtml = "";
+    artDisplay.innerHtml = " ";
     var temp1;
     var temp2;
     var temp3;
