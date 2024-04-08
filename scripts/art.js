@@ -86,7 +86,7 @@ async function populate() {
 }
 
 function update (list) {
-    imageDisplay.innerHtml = [];
+    artDisplay.innerHtml = [];
     var temp1;
     var temp2;
     var temp3;
@@ -102,6 +102,8 @@ function update (list) {
         newImage.setAttribute("src", temp2);
         newImage.setAttribute("alt", temp3);
         const newImageDate = document.createTextNode(temp4);
+
+        newImageContainer.append(newImage, newImageDate);
         
         artDisplay.insertBefore(newImageContainer, artDisplay);
     }
