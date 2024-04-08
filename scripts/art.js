@@ -81,8 +81,7 @@ async function populate() {
     imageData = await response.json();
     updateImage();
   } catch (error) {
-    const sort = document.querySelector(".sort");
-    sort.style.display = ("none");
+    
   }
 }
 
@@ -102,5 +101,8 @@ function update (list) {
         temp4 = imageData.art[temp1].date;
         newImage.setAttribute("src", temp2);
         newImage.setAttribute("alt", temp3);
+        const newImageDate = document.createTextNode(temp4);
+        
+        document.querySelector(".artDisplay").insertBefore(, );
     }
 }
