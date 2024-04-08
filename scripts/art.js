@@ -7,6 +7,7 @@ var twentyFourList = [];
 var utauList = [];
 var splatoonList = [];
 var otherList = [];
+const artDisplay = document.querySelector(".artDisplay");
 
 addEventListener("load", populate);
 sortButton[0].addEventListener("click", twentyThreeSort);
@@ -103,6 +104,6 @@ function update (list) {
         newImage.setAttribute("alt", temp3);
         const newImageDate = document.createTextNode(temp4);
         
-        document.querySelector(".artDisplay").insertBefore(newImageContainer, imageDisplay);
+        artDisplay.insertBefore(newImageContainer, artDisplay);
     }
 }
