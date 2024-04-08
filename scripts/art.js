@@ -24,6 +24,7 @@ function twentyThreeSort() {
             temp = newLength = twentyThreeList.push(temp);
         }
     }
+    update (twentyThreeList);
 }
 function twentyFourSort() {
     twentyFourList = [];
@@ -34,6 +35,7 @@ function twentyFourSort() {
             temp = newLength = twentyFourList.push(temp);
         }
     }
+    update (twentyFourList);
 }
 
 function utauSort() {
@@ -45,6 +47,7 @@ function utauSort() {
             temp = newLength = utauList.push(temp);
         }
     }
+    update (utauList);
 }
 function splatoonSort() {
     splatoonList = [];
@@ -55,6 +58,7 @@ function splatoonSort() {
             temp = newLength = splatoonList.push(temp);
         }
     }
+    update (splatoonSort);
 }
 function otherSort() {
     otherList = [];
@@ -65,14 +69,21 @@ function otherSort() {
             temp = newLength = otherList.push(temp);
         }
     }
+    update(otherSort);
 }
 
 async function populate() {
+  try {
     const requestURL = 
       "https://worm-b0y16.github.io/scripts/artData.json";
     const request = new Request(requestURL);
     const response = await fetch(request);
     imageData = await response.json();
+    updateImage();
+  } catch (error) {
+    const document.querySelector(".sort");
+    sort.style.display = ("none");
+  }
 }
 
 function update (list) {
