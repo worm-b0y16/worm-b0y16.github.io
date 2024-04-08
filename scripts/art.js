@@ -105,6 +105,6 @@ function update (list) {
 
         newImageContainer.append(newImage, newImageDate);
         
-        artDisplay.insertBefore(newImageContainer, artDisplay);
+        document.querySelector("main").insertBefore(newImageContainer, artDisplay);
     }
 }
