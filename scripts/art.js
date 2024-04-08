@@ -103,6 +103,6 @@ function update (list) {
         newImage.setAttribute("alt", temp3);
         const newImageDate = document.createTextNode(temp4);
         
-        document.querySelector(".artDisplay").insertBefore(, );
+        document.querySelector(".artDisplay").insertBefore(newImageContainer, imageDisplay);
     }
 }
