@@ -58,7 +58,7 @@ function splatoonSort() {
             temp = newLength = splatoonList.push(temp);
         }
     }
-    update (splatoonSort);
+    update (splatoonList);
 }
 function otherSort() {
     otherList = [];
@@ -69,7 +69,7 @@ function otherSort() {
             temp = newLength = otherList.push(temp);
         }
     }
-    update(otherSort);
+    update(otherList);
 }
 
 async function populate() {
